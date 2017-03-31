@@ -1,103 +1,67 @@
-# 🏆 – A Blog Theme for Jekyll
-Trophy is a blog theme for Jekyll built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.
-Trophy is also available in [Ghost](https://github.com/thomasvaeth/trophy-ghost).
-
-## Screenshots
-Blog Page (Posts)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-1.png "Desktop screenshot")
-
-Blog Page (Categories)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
-
-Post Page (Mast)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-3.png "Desktop screenshot")
-
-Post Page (Profile & Footer)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-4.png "Desktop screenshot")
-
-Archive Page
-![Archive Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
-
-## Installation
-All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
-
-## Edit Theme
-I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
-
-### _config.yml
-
-#### Site Settings
-    email: 
-    baseurl: ""
-    paginate: 5
-    paginate_path: "/blog/page-:num"
-    google_analytics: UA—XXXXXXXX-X
-
-* ````email```` - Your email for the contact card and the footer
-* ````baseurl```` - Path of blog if adding this on to another website
-* ````paginate```` - Number of blog posts per page
-* ````paginate_path```` - URL structure of paginated pages
-* ````google_analytics```` - Option field to replace with correct Google Analytics code
-
-#### SEO Settings
-    title: 
-    description: 
-    url: ""
-    twitter_username: 
-    default_img: 
-
-* ````title```` - Title of blog
-* ````description```` - Description of blog (recommended to not go over 160 characters)
-* ````url```` - URL of main website
-* ````twitter_username```` - Twitter username
-* ````default_img```` - Image that will appear when posting links on social networks
-
-#### Profile Settings
-    name: 
-    profile_img: 
-    profile: 
-    social:
-      github: 
-
-* ````name```` - Full name for SEO purposes
-* ````profile_img```` - Image for the profile card (size to 2000x1200px)
-* ````profile```` - Short description that will be in the profile card
-* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Phlow&url=https://github.com/Phlow/feeling-responsive&title=Support%20Feeling%20Responsive%20Jekyll%20Theme&language=en_GB&tags=github,jekyll,theme,webdesign&category=software)
 
 
-#### Build Settings
-    exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
-    permalink: /:year/:month/:day/:title/
+# Newsletter: Stay in Touch for Future Updates
 
-* ````exclude```` - Folders that are excluded from `_site_`
-* ````permalink```` - URL structure of blog posts
+If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
 
-### _posts
-    ---
-    layout: post
-    title: ""
-    date: 
-    categories:
-    description: 
-    image: 
-    image-sm:
-    ---
+[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
 
-This is the YAML front matter block for blog posts.
-* ````layout```` - This field will always be post
-* ````title```` - The title of the blog post
-* ````date```` - The date that will appear on the blog post
-* ````categories```` - Optional field that can be entered as an array or a list
-* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
-* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
-* ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
 
-## Upcoming Additions
-* Page transitions
-* More styled elements for blog posts
+[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
-## Issues
-Please submit any issues [here](https://github.com/thomasvaeth/trophy-jekyll/issues).
+## A Responsive Jekyll Theme: *Feeling Responsive*
 
-## License
-Trophy is licensed under the MIT License.
+Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+
+To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+
+And what license is *Feeling Responsive* released under? [This one][2].
+
+
+
+## Why use this theme?
+
+Feeling Responsive is heavily customizable.
+
+1. Language-Support :)
+2. Optimized for speed and it's responsive.
+3. Built on Foundation Framework.
+4. Six different Headers.
+5. Customizable navigation, footer,...
+
+**[More ›][3]**
+
+
+
+## Changelog
+
+*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
+
+**[Read Changelog ›][6]**
+
+
+
+## Video Tutorial
+
+Click the image to [watch the YouTube-Video-Tutorial][4].
+
+[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
+
+
+
+
+
+
+
+
+ [1]: http://phlow.github.io/feeling-responsive/documentation/
+ [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
+ [3]: http://phlow.github.io/feeling-responsive/info/
+ [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
+ [5]: https://github.com/TWiStErRob
+ [6]: https://phlow.github.io/feeling-responsive/changelog/
+ [7]: http://phlow.github.io/feeling-responsive/
+ [8]: http://phlow.github.io/simplicity/
+ [9]: #
+ [10]: #
