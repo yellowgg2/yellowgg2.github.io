@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://yellowgg2.github.io/"/>
   <updated>2017-04-05T02:38:12.916Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://yellowgg2.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>dummy</title>
-    <link href="http://yoursite.com/2017/04/05/dummy/"/>
-    <id>http://yoursite.com/2017/04/05/dummy/</id>
+    <link href="https://yellowgg2.github.io/2017/04/05/dummy/"/>
+    <id>https://yellowgg2.github.io/2017/04/05/dummy/</id>
     <published>2017-04-05T02:37:44.000Z</published>
     <updated>2017-04-05T02:38:12.916Z</updated>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/04/05/hello-world/"/>
-    <id>http://yoursite.com/2017/04/05/hello-world/</id>
+    <link href="https://yellowgg2.github.io/2017/04/05/hello-world/"/>
+    <id>https://yellowgg2.github.io/2017/04/05/hello-world/</id>
     <published>2017-04-05T02:22:58.891Z</published>
     <updated>2017-04-05T02:22:58.891Z</updated>
     
