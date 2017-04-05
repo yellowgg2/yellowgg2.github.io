@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yellowgg2.github.io/"/>
-  <updated>2017-04-05T03:26:57.489Z</updated>
+  <updated>2017-04-05T03:34:39.273Z</updated>
   <id>https://yellowgg2.github.io/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="https://yellowgg2.github.io/2017/04/05/dummy/"/>
     <id>https://yellowgg2.github.io/2017/04/05/dummy/</id>
     <published>2017-04-05T02:37:44.000Z</published>
-    <updated>2017-04-05T03:26:57.489Z</updated>
+    <updated>2017-04-05T03:34:39.273Z</updated>
     
     <content type="html"><![CDATA[<h1 id="This-is-a-dummy-post"><a href="#This-is-a-dummy-post" class="headerlink" title="This is a dummy post"></a>This is a dummy post</h1><p>Hello world!!!  </p>
 <p>Hello Youngki!!!  </p>
-<p>Hello Today!!!  </p>
+<p>Hello Today!!!<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> aaa = <span class="string">"aaa"</span></div></pre></td></tr></table></figure></p>
 ]]></content>
     
     <summary type="html">
@@ -33,6 +33,8 @@
     
     </summary>
     
+    
+      <category term="dummy" scheme="https://yellowgg2.github.io/tags/dummy/"/>
     
   </entry>
   
